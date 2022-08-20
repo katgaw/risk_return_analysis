@@ -5,8 +5,9 @@
 
 >“Money, if it does not bring you happiness, will at least help you be miserable in comfort.” – Helen Gurley Brown
 ---
+## Analytical Summary
 
-![snippet of our code](Images/code.png)
+This script evaluates four investment options for inclusion in a client’s portfolio. A fund’s investment potential is measured with respect to key risk-management metrics: the daily returns, standard deviations, Sharpe ratios, and betas.
 
 ---
 
@@ -30,12 +31,19 @@ Before running the application first install the following dependencies.
   pip install pathlib
   pip install matplotlib
 ```
-
 ---
 
 ## Usage
 
 To use the crypto project simply clone the repository and run the code **risk_return_analysis.ipynb** in jupyter lab or in VS Code.
+
+---
+## Graphs
+![snippet of our code](Images/cumulative_returns.png)
+![snippet of our code](Images/standard_deviations.png)
+![snippet of our code](Images/sharpe.png)
+![snippet of our code](Images/beta.png)
+
 
 ---
 
